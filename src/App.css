@@ -1,0 +1,67 @@
+.main-body{
+  background: #3a7bd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3a6073, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+}
+.todolist-mainDiv{
+  background-color: white;
+  width:25%;
+  height: 70%;
+  
+  margin: auto;
+  border-radius: 5px;
+}
+.todo-task-input-div{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  
+}
+#add-button{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.task-buttons{
+  display: flex;
+  column-gap: 10px;
+  
+}
+
+.task-list{
+  width:95%;
+  margin: auto;
+  
+  list-style: none;
+  padding: 0px;
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.task-list li{
+  margin: 0px;
+}
+.task{
+  display: flex;
+  row-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
